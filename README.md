@@ -61,7 +61,7 @@ E-Commerce_/
 ---
 
 👨‍💻 Author
-Daniel Żebrowski
+[Daniel Żebrowski](https://www.linkedin.com/in/daniel-%C5%BCebrowski-7a0937211/)
 
 Aspiring Data Analyst | SQL, Power BI & Python
 
