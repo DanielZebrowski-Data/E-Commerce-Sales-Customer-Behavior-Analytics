@@ -43,7 +43,7 @@ Correct fact-table grain
 Referential integrity
 
 ---
-
+```
 📁 Project Structure
 ecommerce-sales-analysis/
 │
@@ -57,7 +57,7 @@ ecommerce-sales-analysis/
 │   └── raw_sales_data.csv
 │
 └── README.md
-
+```
 ---
 
 👨‍💻 Author
