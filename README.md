@@ -45,7 +45,7 @@ Referential integrity
 ---
 ```
 📁 Project Structure
-ecommerce-sales-analysis/
+E-Commerce_/
 │
 ├── sql/
 │   ├── 01_schema_ddl.sql
