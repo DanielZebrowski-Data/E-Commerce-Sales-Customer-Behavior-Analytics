@@ -25,7 +25,6 @@ The analytical layer separates data preparation from visualization logic using m
 
 1. Executive KPI Summary View (`vw_exec_kpi_summary`)
 Provides a single-row executive KPI summary of total orders, unique customers, revenue (gross vs. net), and Average Order Value (AOV).
-![Executive KPI Summary View](E-Commerce_/asset/buisnes_status_report.png)
 
 ```sql
 CREATE OR REPLACE VIEW vw_exec_kpi_summary AS
@@ -92,12 +91,16 @@ The interactive e-commerce_bi.pbix report is tailored for C-Level decision-maker
 
 1. Executive Business Status Report
 Provides high-level KPI metrics alongside side-by-side geographic volume and average order value distribution.
+![Executive KPI Summary View](E-Commerce_/asset/buisnes_status_report.png)
 
-2. Logistics & Operational Risk Audit
+3. Logistics & Operational Risk Audit
 Hierarchical matrix highlighting fulfillment status bottlenecks, canceled orders, and revenue tied up in returns.
+![Logistics & Operational Risk Audit](E-Commerce_/asset/logistics_risk.png)
 
-3. Payment Method Market Penetration (Net Sales vs Percentage Distribution)
+5. Payment Method Market Penetration (Net Sales vs Percentage Distribution)
 Comparative analysis isolating raw monetary volume versus normalized market share percentage across global regions.
+![Payment Method Market Penetration](E-Commerce_/asset/analysis_payment_percentage.png)
+![Payment Method Market Penetration](E-Commerce_/asset/analysis_payment_netto.png)
 
 📁 Project Structure
 ```
