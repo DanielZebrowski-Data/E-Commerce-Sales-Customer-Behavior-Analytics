@@ -37,10 +37,11 @@ SELECT
     ROUND(SUM(fs.net_sales) / NULLIF(COUNT(fs.order_id), 0), 2) AS avg_order_value
 FROM fact_sales fs;
 ```
+
 Customer Geography & Performance View (vw_customer_performance)
 Evaluates customer volume, total net revenue, and AOV grouped by geographic markets.
-```
-SQL
+
+```sql
 CREATE OR REPLACE VIEW vw_customer_performance AS
 SELECT 
     dc.customer_country,
@@ -53,10 +54,11 @@ FROM fact_sales fs
 LEFT JOIN dim_customers dc ON fs.customer_id = dc.customer_id
 GROUP BY dc.customer_country;
 ```
+
 Order Fulfillment & Risk View (vw_order_fulfillment_status)
 Analyzes logistics methods and identifies revenue leakage across cancelled, pending, and returned orders.
-```
-SQL
+
+```sql
 CREATE OR REPLACE VIEW vw_order_fulfillment_status AS
 SELECT
     fs.shipping_method,
@@ -68,10 +70,11 @@ SELECT
 FROM fact_sales fs
 GROUP BY fs.shipping_method, fs.order_status;
 ```
+
 Payment Method Penetration View (vw_percentage_share_payment_method_analysis)
 Leverages advanced SQL Window Functions to calculate the percentage market share of payment methods partitioned by country.
-```
-SQL
+
+```sql
 CREATE OR REPLACE VIEW vw_percentage_share_payment_method_analysis AS
 SELECT
     dc.customer_country,
@@ -85,6 +88,7 @@ FROM fact_sales fs
 LEFT JOIN dim_customers dc ON fs.customer_id = dc.customer_id
 GROUP BY dc.customer_country, fs.payment_method;
 ```
+
 📈 Power BI Dashboard Highlights
 
 The interactive e-commerce_bi.pbix report is tailored for C-Level decision-makers across four functional views:
