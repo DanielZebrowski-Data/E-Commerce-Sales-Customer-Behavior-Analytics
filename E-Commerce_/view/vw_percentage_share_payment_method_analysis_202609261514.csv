@@ -1,0 +1,50 @@
+"customer_country","payment_method","net_sales_per_method","pct_share_within_country"
+Australia,Bank Transfer,472691.92,5.36
+Australia,Buy Now Pay Later,658869.76,7.48
+Australia,Cash on Delivery,902799.64,10.24
+Australia,Credit Card,2694191.83,30.57
+Australia,Debit Card,1755058.48,19.91
+Australia,Digital Wallet,997500.88,11.32
+Australia,PayPal,1332578.00,15.12
+Canada,Bank Transfer,431995.66,4.70
+Canada,Buy Now Pay Later,731693.02,7.95
+Canada,Cash on Delivery,917887.63,9.98
+Canada,Credit Card,2796274.21,30.40
+Canada,Debit Card,1771657.22,19.26
+Canada,Digital Wallet,1115467.52,12.13
+Canada,PayPal,1433873.22,15.59
+Germany,Bank Transfer,820921.06,5.12
+Germany,Buy Now Pay Later,1262648.59,7.87
+Germany,Cash on Delivery,1605028.13,10.00
+Germany,Credit Card,4800355.15,29.92
+Germany,Debit Card,3069036.64,19.13
+Germany,Digital Wallet,1935941.01,12.07
+Germany,PayPal,2550241.31,15.90
+India,Bank Transfer,405679.38,5.26
+India,Buy Now Pay Later,614542.81,7.96
+India,Cash on Delivery,711140.77,9.21
+India,Credit Card,2333857.67,30.24
+India,Debit Card,1673344.92,21.68
+India,Digital Wallet,851828.27,11.04
+India,PayPal,1127893.42,14.61
+UAE,Bank Transfer,258407.91,5.00
+UAE,Buy Now Pay Later,380602.88,7.37
+UAE,Cash on Delivery,559312.91,10.83
+UAE,Credit Card,1526769.59,29.55
+UAE,Debit Card,1021353.75,19.77
+UAE,Digital Wallet,658773.48,12.75
+UAE,PayPal,760752.89,14.73
+UK,Bank Transfer,1361489.15,4.87
+UK,Buy Now Pay Later,2172711.72,7.77
+UK,Cash on Delivery,2998689.62,10.72
+UK,Credit Card,8327295.11,29.78
+UK,Debit Card,5583257.25,19.97
+UK,Digital Wallet,3359960.45,12.02
+UK,PayPal,4159797.46,14.88
+USA,Bank Transfer,5172747.71,5.06
+USA,Buy Now Pay Later,8153658.25,7.98
+USA,Cash on Delivery,10331053.56,10.11
+USA,Credit Card,30910873.84,30.24
+USA,Debit Card,20481435.81,20.03
+USA,Digital Wallet,11913315.61,11.65
+USA,PayPal,15267006.75,14.93
