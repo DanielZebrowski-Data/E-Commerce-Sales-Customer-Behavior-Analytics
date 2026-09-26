@@ -46,15 +46,29 @@ Referential integrity
 ```
 📁 Project Structure
 E-Commerce_/
-│
+|
+├── asset/
+│   ├── analysis_payment_netto.png
+|   ├── analysis_payment_percentage.png
+|   ├── buisnes_status_report.png
+|   ├── logistics_risk.png
+├── power_bi/
+|   ├── e-commerce_bi.pbix
+├── raw_data/
+│   ├── customer_master.csv
+│   ├── ecommerce_sales_customer_analytics_150k.csv
+│   ├── order_items.csv
 ├── sql/
 │   ├── 01_schema_ddl.sql
 │   ├── 02_data_ingestion.sql
 │   ├── 03_data_cleaning.sql
 │   └── 04_analytics_views.sql
-│
-├── data/
-│   └── raw_sales_data.csv
+├── view/
+│   ├── vw_customer_performance_202609261037.csv
+│   ├── vw_exec_kpi_summary_202609261036.csv
+│   ├── vw_order_fulfillment_status_202609261038.csv
+|   ├── vw_payment_method_analysis_202609261038.csv
+│   └── vw_percentage_share_payment_method_analysis_202609261514.csv
 │
 └── README.md
 ```
